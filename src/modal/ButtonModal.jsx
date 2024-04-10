@@ -3,6 +3,7 @@ const ButtonModal = ({setModal}) => {
     <>
         <button onClick={() => setModal(true)}>
             Abrir Modal</button>
+            
     </>
     )
 }

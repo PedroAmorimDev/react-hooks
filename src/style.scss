@@ -1,0 +1,24 @@
+@import url(https://fonts.google.com/specimen/Work+Sans);
+body {
+    margin: 0px;
+    background: url(./images/back.svg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-color: hsl(275, 100%, 97%);
+    .container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 100px;
+        .box {
+            width: 500px;
+            height: 400px;
+            background: #fff;
+            border-radius: 15px;
+            h1{
+                font-family: Work Sans;
+                color: hsl(292, 42%, 14%);
+            }
+        }
+    }
+}

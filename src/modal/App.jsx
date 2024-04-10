@@ -6,11 +6,12 @@ const App = () => {
     const [modal, setModal] = React.useState(false)
 
     return (
-        <>
-            <ButtonModal setModal={setModal} />
-            <Modal modal={modal} setModal={setModal} />
-        </>
-        )
+    <>
+        <ButtonModal setModal={setModal} />
+        <Modal modal={modal} setModal={setModal} />
+    </>
+
+    )
 }
 
 export default App
